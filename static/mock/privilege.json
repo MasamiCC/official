@@ -1,0 +1,106 @@
+{
+	"privilegeShow":{
+		"intro_1":{
+			"introImg": "../static/img/privilege_1.png",
+			"introTitle": "智能贴心管家",
+			"introWord": "最知心的沟通，最细心的安排，最舒心的服务，全方位满足会员需求，想您所想，做您最贴心的私人管家，管家专线：400 1588 592。"
+		},
+		"intro_2":{
+			"introImg": "../static/img/privilege_2.png",
+			"introTitle": "轻奢福利",
+			"introWord": "各式美味试吃？五星级酒店试睡？特色景区试玩？首发、首映限量参加？不止是免费，快人一步，只在轻奢专享福利。"
+		},
+		"intro_3":{
+			"introImg": "../static/img/privilege_3.png",
+			"introTitle": "分层社交",
+			"introWord": "轻奢点评专为不同层次、不同业态、不同爱好、不同类别的轻奢族打造的专属社区，只为给你带来更精准的社交。"
+		},
+		"intro_4":{
+			"introImg": "../static/img/privilege_4.png",
+			"introTitle": "酒店特权",
+			"introWord": "为您做好需要的预定和安排，确认跟进、特殊需求偏好、加急处理、售后协调维权等，让您享受完美省心的入住体验。"
+		}
+	},
+	"privilegeHide":{
+		"intro_5":{
+			"introImg": "../static/img/privilege_5.png",
+			"introTitle": "尊贵身份",
+			"introWord": "不求闪耀全场，只让你展现真正的自己。"
+		},
+		"intro_6":{
+			"introImg": "../static/img/privilege_6.png",
+			"introTitle": "592VIP轻奢沙龙消费",
+			"introWord": "轻奢点评所到一个城市将会同步开设592VIP实体社交沙龙，供轻奢会员专享。"
+		},
+		"intro_7":{
+			"introImg": "../static/img/privilege_7.png",
+			"introTitle": "分层社交",
+			"introWord": "轻奢点评专为不同层次、不同业态、不同爱好、不同类别的轻奢族打造的专属社区，只为给你带来更精准的社交。"
+		},
+		"intro_8":{
+			"introImg": "../static/img/privilege_8.png",
+			"introTitle": "黑卡俱乐部私董会",
+			"introWord": "从线上走向线下，面对面更为精准的圈层社交，只为凝聚对的人。"
+		},
+		"intro_9":{
+			"introImg": "../static/img/privilege_9.png",
+			"introTitle": "消费折扣",
+			"introWord": "同样的产品，劲爆的折扣，我们为您打造属于您的消费新体验。"
+		},
+		"intro_10":{
+			"introImg": "../static/img/privilege_10.png",
+			"introTitle": "生日祝福",
+			"introWord": "在会员生日当天会收到轻奢点评为您送来的轻奢祝福和生日礼物。"
+		},
+		"intro_11":{
+			"introImg": "../static/img/privilege_11.png",
+			"introTitle": "特权折扣",
+			"introWord": "会员专属特权，我们不一样。"
+		},
+		"intro_12":{
+			"introImg": "../static/img/privilege_12.png",
+			"introTitle": "车位预留",
+			"introWord": "不管外面有多拥挤，在轻奢的的世界里，您都拥有属于您的专属车位。（该特权仅限参与区块链红利释放体系的黑卡会员所有）。"
+		},
+		"intro_13":{
+			"introImg": "../static/img/privilege_13.png",
+			"introTitle": "公益慈善",
+			"introWord": "轻奢点评慈善基金，由轻奢点评和红十字会联合成立，专注健康扶贫，只要在轻奢平台消费或经营，就是在做慈善。未来慈善不再是奢侈品，而应成为大家的生活习惯。"
+		},
+		"intro_14":{
+			"introImg": "../static/img/privilege_14.png",
+			"introTitle": "优先体验",
+			"introWord": "针对平台开发的新版功能，符合要求的会员可优先体验和尊享服务。"
+		},
+		"intro_15":{
+			"introImg": "../static/img/privilege_15.png",
+			"introTitle": "私人飞机体验与免担保租赁",
+			"introWord": "独有的高端服务，让会员有机会享受更低的价格乘坐私人飞机出行。（该特权仅限参与区块链红利释放体系满5个周期以上的会员所有）。"
+		},
+		"intro_16":{
+			"introImg": "../static/img/privilege_16.png",
+			"introTitle": "海外专享",
+			"introWord": "房产购置、热门投资、子女入学、境外医疗等，轻奢点评为你提供多样化的选择，不管您走到哪里，轻奢点评服务到哪里。"
+		},
+		"intro_17":{
+			"introImg": "../static/img/privilege_17.png",
+			"introTitle": "游艇俱乐部",
+			"introWord": "该特权仅限参与区块链红利释放体系满5个周期以上的会员所有。"
+		},
+		"intro_18":{
+			"introImg": "../static/img/privilege_18.png",
+			"introTitle": "高尔夫俱乐部",
+			"introWord": "该特权仅限参与区块链红利释放体系满5个周期以上的会员所有。"
+		},
+		"intro_19":{
+			"introImg": "../static/img/privilege_19.png",
+			"introTitle": "共享平台消费分红权",
+			"introWord": "该特权仅限参与区块链红利释放体系的黑卡会员所有。"
+		},
+		"intro_20":{
+			"introImg": "../static/img/privilege_20.png",
+			"introTitle": "轻奢慈善盛典嘉宾特权",
+			"introWord": "该特权仅限参与区块链红利释放体系并累计贡献不低于5000积分用于慈善基金健康扶贫的黑卡会员所有。"
+		}
+	}
+}

@@ -1,0 +1,108 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.banner{
+	width: 100%;
+}
+
+/*
+ * 首页一屏样式 
+ */
+
+.index_nav{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.index_nav .swiper-container,.index_nav img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* box2 */
+.box_2>p,.box_txt{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-indent: 2rem;
+    color: #666666;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.box2_title,.box3_title,.box4_title,.box5_title,.box7_title{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom:6rem;
+}
+.box_2,.box_3,.box_4,.box_5,.box_7{
+    padding: 8rem 0rem;
+}
+/* box2 */
+/* box3 */
+.box_3{
+    background: url(../../static/img/blackcard_02.png) 100% no-repeat;
+    background-size: cover;
+}
+.box3_banner{
+    /* width: 55%; */
+    margin-top:5rem; 
+    text-align: center;
+}
+/* box3 */
+/* box4 */
+.box_4{
+    text-align: center;
+    background: url(../../static/img/blackcard_05.png) 100% no-repeat;
+    background-size: cover;
+    color: white;
+}
+.box_4>p{
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #666666;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    color: white;
+}
+.box_4>span{
+    font-size: 1.45rem;
+    color: #b39054;
+    border: 2px solid #b39054;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 5rem;
+    display: inline-block;
+}
+/* box4 */
+/* box5 */
+.box5_body>p{
+    width: 65%;
+    margin :0 auto;
+    text-align: left;
+    font-size: 1.25rem;
+    color: #666666;
+    line-height: 2rem;
+}
+.box5_img{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content:space-between; 
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+/* box5 */
+.box_7{
+    text-align: center;
+}
+.box_7>img{
+    width: 70%;
+    text-align: center;
+    margin:0 auto;
+}

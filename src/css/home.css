@@ -1,0 +1,210 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+/*
+ * 首页一屏样式 
+ */
+
+.index_nav{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.index_nav .swiper-container,.index_nav img{
+	width: 100%;
+	height: 100%;
+}
+
+/*黑卡缘起*/
+.daimon_img{
+	text-align: center;
+	margin-top: 9.5%;
+	margin-bottom: 6px;
+}
+.daimon_img img{
+	width: auto;
+}
+.yuanQi_ititle{
+	font-size: 46px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.yuanQi{
+	text-align: center;
+}
+.yuanQi_content{
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 65px;
+}
+.yuanQi_shadow{
+	max-width: 1235px;
+	margin: 0 auto;
+	display: flex;
+	margin-bottom: 75px;
+	justify-content: space-between;
+}
+.yuanQi_shadow_item{
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.08);
+	width: 270px;
+	height: 327px;
+	position: relative;
+}
+.dinner_icon_container{
+	position: absolute;
+	bottom: 13px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.dinner_icon_font{
+	font-size: 19px;
+	color: #b39054;
+	line-height: 2.5;
+}
+.BC_joinUs_font{
+	display: inline-block;
+	font-size: 26px;
+	color: #fff;
+	background: url(../../static/img/buttonBg.png) no-repeat;
+	width: 250px;
+  height: 65px;
+  line-height: 65px;
+  background-size: 100%;
+}
+.BC_joinUs{
+	margin-bottom: 160px;
+}
+/*黑卡缘起*/
+/*黑卡特权*/
+.bc_rights{
+	text-align: center;
+}
+.bc_middle_imgcon img{
+	width: 100%;
+}
+.bc_middle_imgcon{
+	margin-bottom: 180px;
+}
+.bc_rights_title{
+	font-size: 46px;
+	color: #333;
+	line-height: 2;
+}
+.bc_rights_small_title{
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 85px;
+}
+.bc_right_con{
+	font-size: 0;
+	line-height: 0;
+}
+.bc_right_con>div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.bc_right_item1_con{
+	margin-right: 15px;
+}
+.bc_right_con2{
+	margin-top: 20px;
+	margin-bottom: 55px;
+}
+.bc_right_item3_con{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.bc_right_item4_con{
+	margin-left: 18px;
+}
+.moreBCbrightsbtn{
+	display: inline-block;
+	width: 197px;
+	height: 52px;
+	border: 1px solid #333;
+	border-radius: 4px;
+	font-size: 28px;
+	color: #333;
+	line-height: 52px;
+}
+.moreBCbrights{
+	margin-bottom: 195px;
+}
+/*黑卡特权*/
+/*游艇*/
+.boat{
+	text-align: center;
+	margin-bottom: 170px;
+}
+.youting1_con{
+	margin-right: 30px;
+}
+.youting3_con{
+	margin-top: 30px;
+}
+/*游艇*/
+/*media*/
+.mediacon{
+	text-align: center;
+}
+.media_title{
+	font-size: 46px;
+	color: #333;
+}
+.media_content{
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 85px;
+}
+.media_title{
+	line-height: 2;
+}
+.media_img_content{
+	margin-bottom: 100px;
+}
+/*media*/
+/*招募计划*/
+.bc_ZM{
+	padding-top: 135px;
+	background:#1b1b1c url(../../static/img/font_bg.png) no-repeat  center 115px;
+	text-align: center;
+	padding-bottom: 105px;
+}
+.bc_zm{
+	line-height: 0;
+	/*position: relative;*/
+}
+.bc_ZM_title{
+	font-size: 46px;
+	color: #b39054;
+	margin-bottom: 25px;
+	line-height: 2;
+}
+.bc_zm_IMG{
+	position: relative;
+	display: inline-block;
+}
+.bc_zm_btn{
+	color: #b39054;
+	font-size: 20px;
+	display: inline-block;
+	width: 122px;
+	height: 38px;
+	border: 2px solid #b39054;
+	line-height: 35px;
+	border-radius: 8px;
+}
+.bc_zm_btn_con{
+	position: absolute;
+    right: 35px;
+    bottom: 85px;
+}
+.bc_zm_btn_con2{
+    bottom: 100px;
+}
+/*招募计划*/

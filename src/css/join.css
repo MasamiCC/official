@@ -1,0 +1,121 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+
+/*首页一屏样式*/
+.index_nav{
+ 	height: 100%;
+ 	width: 100%;
+ 	min-width: 1280px;
+ 	overflow: hidden;
+ 	background-image: url(../../static/img/join_01.png);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+	position: relative;
+	color: white;    
+}
+
+.index_nav .privilege_logo{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -300px;
+  margin-left: -300px;
+}
+/* banner */
+.banner{
+  color: white;
+  background: url() 100% no-repeat;
+  background-size: cover;
+  height: 900px;
+  position: relative;
+}
+.qrcode_box{
+  display: flex;
+  justify-content:space-between;   
+  width: 35%;  
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -17.5%;
+  top: 50%;
+  margin-top: -5%;
+}
+.banner_qrcode{
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1px;
+  /* margin:0 110px; */
+}
+.banner_qrcode>img{
+  display: inline-block;
+  width: 220px;
+  height: 220px;;
+  margin: 10px 0px;
+}
+.banner_btn{
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 8px 0px;
+  margin-top: 10px;
+}
+/* banner */
+.banner2>img{
+  width: 80%;
+  height: 80%;
+}
+.banner2{
+  text-align: center;
+}
+
+/* 底栏  */
+.bottom{
+  background: url(../../static/img/black_8.png) no-repeat;
+  height: auto;
+  height: 350px;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  min-width: 1000px;
+  text-align: center;
+}
+.bottom_title>span{
+  color: #b39054;
+  font-size: 0.85rem;
+  padding:0px 30px;
+  display: inline-block;
+  margin-top: 40px;
+  cursor:pointer;
+}
+.border{
+  border-right: 2px solid #b39054;
+}
+.qrcode{
+  color:white;
+  display: inline-block;
+  margin: 20px 10px;
+}
+.qrcode>img{
+  width: 70px;
+  margin-top:5px;
+}
+.limg>img{
+  width: 70px;
+  margin: 10px;
+}
+.bottom>p{
+  color: white;
+}
+/* 底栏  */
