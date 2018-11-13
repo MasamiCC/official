@@ -32,46 +32,46 @@
 			"introTitle": "592VIP轻奢沙龙消费",
 			"introWord": "轻奢点评所到一个城市将会同步开设592VIP实体社交沙龙，供轻奢会员专享。"
 		},
-		"intro_7":{
-			"introImg": "../static/img/privilege_7.png",
-			"introTitle": "分层社交",
-			"introWord": "轻奢点评专为不同层次、不同业态、不同爱好、不同类别的轻奢族打造的专属社区，只为给你带来更精准的社交。"
-		},
+    "intro_7":{
+      "introImg": "../static/img/privilege_7.png",
+      "introTitle": "黑卡俱乐部私董会",
+      "introWord": "从线上走向线下，面对面更为精准的圈层社交，只为凝聚对的人。"
+    },
 		"intro_8":{
 			"introImg": "../static/img/privilege_8.png",
-			"introTitle": "黑卡俱乐部私董会",
-			"introWord": "从线上走向线下，面对面更为精准的圈层社交，只为凝聚对的人。"
-		},
-		"intro_9":{
-			"introImg": "../static/img/privilege_9.png",
 			"introTitle": "消费折扣",
 			"introWord": "同样的产品，劲爆的折扣，我们为您打造属于您的消费新体验。"
 		},
-		"intro_10":{
-			"introImg": "../static/img/privilege_10.png",
+		"intro_9":{
+			"introImg": "../static/img/privilege_9.png",
 			"introTitle": "生日祝福",
 			"introWord": "在会员生日当天会收到轻奢点评为您送来的轻奢祝福和生日礼物。"
 		},
-		"intro_11":{
-			"introImg": "../static/img/privilege_11.png",
+		"intro_10":{
+			"introImg": "../static/img/privilege_10.png",
 			"introTitle": "特权折扣",
 			"introWord": "会员专属特权，我们不一样。"
 		},
-		"intro_12":{
-			"introImg": "../static/img/privilege_12.png",
+		"intro_11":{
+			"introImg": "../static/img/privilege_11.png",
 			"introTitle": "车位预留",
 			"introWord": "不管外面有多拥挤，在轻奢的的世界里，您都拥有属于您的专属车位。（该特权仅限参与区块链红利释放体系的黑卡会员所有）。"
 		},
-		"intro_13":{
-			"introImg": "../static/img/privilege_13.png",
+		"intro_12":{
+			"introImg": "../static/img/privilege_12.png",
 			"introTitle": "公益慈善",
 			"introWord": "轻奢点评慈善基金，由轻奢点评和红十字会联合成立，专注健康扶贫，只要在轻奢平台消费或经营，就是在做慈善。未来慈善不再是奢侈品，而应成为大家的生活习惯。"
 		},
-		"intro_14":{
-			"introImg": "../static/img/privilege_14.png",
+		"intro_13":{
+			"introImg": "../static/img/privilege_13.png",
 			"introTitle": "优先体验",
 			"introWord": "针对平台开发的新版功能，符合要求的会员可优先体验和尊享服务。"
 		},
+    "intro_14":{
+      "introImg": "../static/img/privilege_14.png",
+      "introTitle": "定制旅行",
+      "introWord": "根据会员的个性化需求，帮助制定专属行程与旅行计划，为您提供最专业的建议和定制方案，带您深入当地的风土人情，助您体验旅行真正的乐趣。"
+    },
 		"intro_15":{
 			"introImg": "../static/img/privilege_15.png",
 			"introTitle": "私人飞机体验与免担保租赁",

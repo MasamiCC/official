@@ -17,13 +17,19 @@ Vue.config.productionTip = false;
 
 
 router.beforeEach((to, from, next) => {
+  /* 路由发生变化修改页面title */
+  if (to.meta.title) {
+    document.title = to.meta.title
+  }
   store.dispatch('changeLoad', true);
   //进行下一步
   next();
 })
 
 router.afterEach(function (to) {
+  //把load页置为false
   store.dispatch('changeLoad', false);
+  //返回顶部
   window.scrollTo(0,0);
 })
 

@@ -185,69 +185,65 @@
   background-position: -232px 4px;
 }
 
-.intro_area.intro_6  .intro_icon{
+.intro_area.intro_5  .intro_icon{
   background-position: -340px 8px;
 }
 
-.intro_area.intro_7  .intro_icon{
+.intro_area.intro_6  .intro_icon{
   background-position: -401px -5px;
+}
+
+.intro_area.intro_7  .intro_icon{
+  background-position: -1282px 3px;
 }
 
 .intro_area.intro_8  .intro_icon{
-  background-position: -401px -5px;
-}
-
-.intro_area.intro_9  .intro_icon{
   background-position: -453px 6px;
 }
 
-.intro_area.intro_10  .intro_icon{
+.intro_area.intro_9  .intro_icon{
   background-position: -512px 3px;
 }
 
-.intro_area.intro_11  .intro_icon{
+.intro_area.intro_10  .intro_icon{
   background-position: -573px -10px;
 }
 
-.intro_area.intro_12  .intro_icon{
+.intro_area.intro_11  .intro_icon{
   background-position: -636px -2px;
 }
 
-.intro_area.intro_13  .intro_icon{
+.intro_area.intro_12  .intro_icon{
   background-position: -689px 8px;
 }
 
-.intro_area.intro_14  .intro_icon{
+.intro_area.intro_13  .intro_icon{
   background-position: -753px -6px;
 }
 
-.intro_area.intro_15  .intro_icon{
+.intro_area.intro_14  .intro_icon{
   background-position: -810px 3px;
 }
 
-.intro_area.intro_16  .intro_icon{
+.intro_area.intro_15  .intro_icon{
   background-position: -874px 6px;
 }
 
-.intro_area.intro_17  .intro_icon{
+.intro_area.intro_16  .intro_icon{
   background-position: -935px 4px;
 }
 
-.intro_area.intro_18  .intro_icon{
+.intro_area.intro_17  .intro_icon{
   background-position: -999px 3px;
 }
 
-.intro_area.intro_19  .intro_icon{
-	height: 55px;
+.intro_area.intro_18  .intro_icon{
+  height: 55px;
   background-position: -1066px 0px;
 }
 
-.intro_area.intro_20  .intro_icon{
-  background-position: -1140px 3px;
-}
-
-.intro_area.intro_21  .intro_icon{
-  background-position: 3px 4px;
+.intro_area.intro_19  .intro_icon{
+	background-position: -1140px 3px;
 }
 
 /*更多特权*/
@@ -272,5 +268,5 @@
 .intro_area .more_privilege:hover{
 	background-color: #b39054;
 	border: 2px solid #b39054;
-	color: #ffffff;	
+	color: #ffffff;
 }

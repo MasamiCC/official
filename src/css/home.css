@@ -1,10 +1,11 @@
 .container{
   width: 100%;
   height: 100%;
+  min-width: 1280px;
 }
 
 /*
- * 首页一屏样式 
+ * 首页一屏样式
  */
 
 .index_nav{
@@ -13,10 +14,42 @@
   overflow: hidden;
 }
 
-.index_nav .swiper-container,.index_nav img{
+.index_nav .swiper_bg{
 	width: 100%;
 	height: 100%;
 }
+
+.swiper-container{
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide{
+	position: relative;
+}
+
+.carousel_logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1180px;
+	height: 650px;
+	margin-top: -325px;
+	margin-left: -590px;
+}
+
+.carousel_logo.logo_1{
+	width: 1150px;
+	height: 310px;
+	margin-top: -155px;
+	margin-left: -575px;
+}
+
+.carousel_logo > img{
+	width: 100%;
+	height: 100%;
+}
+
 
 /*黑卡缘起*/
 .daimon_img{
@@ -82,58 +115,88 @@
 /*黑卡缘起*/
 /*黑卡特权*/
 .bc_rights{
-	text-align: center;
+  text-align: center;
+    min-width: 1280px;
+    margin: 0 auto;
 }
 .bc_middle_imgcon img{
-	width: 100%;
+  width: 100%;
 }
 .bc_middle_imgcon{
-	margin-bottom: 180px;
+  margin-bottom: 180px;
 }
 .bc_rights_title{
-	font-size: 46px;
-	color: #333;
-	line-height: 2;
+  font-size: 46px;
+  color: #333;
+  line-height: 2;
 }
 .bc_rights_small_title{
-	font-size: 20px;
-	color: #666;
-	margin-bottom: 85px;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 85px;
 }
 .bc_right_con{
-	font-size: 0;
-	line-height: 0;
+  font-size: 0;
+  line-height: 0;
 }
 .bc_right_con>div{
-	display: inline-block;
-	vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
-.bc_right_item1_con{
-	margin-right: 15px;
+.bc_right_item>div{
+  margin: 20px;
+  position: relative;
 }
-.bc_right_con2{
-	margin-top: 20px;
-	margin-bottom: 55px;
+.bc_right_item_con:hover{
+  transform: scale(1.06);
+  cursor: pointer;
+  transition: all 0.8s ease 0s;
+    -webkit-transition: all 0.8s ease 0s;
 }
-.bc_right_item3_con{
-	margin-right: 20px;
-	margin-left: 20px;
+
+.bc_right_item_con:hover .bc_font{
+  display: block;
 }
-.bc_right_item4_con{
-	margin-left: 18px;
+.bc_font{
+  color: #fff;
+  background: rgba(0,0,0,0.75);
+  position: absolute;
+  line-height: 2;
+  top: 0px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  font-family: simhei;
+}
+.bc_title{
+  font-weight: bold;
+  margin-top: 80px;
+  line-height: 3;
+  font-size: 24px!important;
+}
+.bc_content{
+  margin: 0 45px;
+}
+.bc_font p{
+  font-size: 22px;
+}
+.bc_right_item{
+  text-align: center;
 }
 .moreBCbrightsbtn{
-	display: inline-block;
-	width: 197px;
-	height: 52px;
-	border: 1px solid #333;
-	border-radius: 4px;
-	font-size: 28px;
-	color: #333;
-	line-height: 52px;
+  display: inline-block;
+  width: 197px;
+  height: 52px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 28px;
+  color: #333;
+  line-height: 52px;
 }
 .moreBCbrights{
-	margin-bottom: 195px;
+  margin-bottom: 195px;
+  margin-top: 43px;
 }
 /*黑卡特权*/
 /*游艇*/

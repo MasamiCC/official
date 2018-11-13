@@ -1,0 +1,25 @@
+.list_box{
+    margin-top: 100px;
+    padding: 110px 0px;
+}
+.list_box>ul{
+    width: 65%;
+    margin: 0 auto;
+    padding:  35px 80px 85px 80px;
+    background-color: white;
+}
+.list_box>ul>li{
+    border-bottom: 1px solid #e6e6e6;
+    height: 86px;
+    line-height: 86px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+ul>li>a>img{
+    margin-right: 30px;
+}
+.title{
+    font-size: 19px;
+    color: #333;
+}

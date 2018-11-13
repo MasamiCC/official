@@ -176,11 +176,11 @@ table,tr,td {
 	background-color: rgba(5,5,10,0.9);
 	border-top: 1px solid #333333;
 	text-align: center;
-	-webkit-transition: .5s 0s all;
-	-o-transition: .5s 0s all;
-	-moz-transition: .5s 0s all;
-	-ms-transition: .5s 0s all;
-	transition: .5s 0s all;
+	-webkit-transition: .5s 0s opacity;
+	-o-transition: .5s 0s opacity;
+	-moz-transition: .5s 0s opacity;
+	-ms-transition: .5s 0s opacity;
+	transition: .5s 0s opacity;
 	opacity: 0;
 	visibility: hidden;
 }
@@ -423,4 +423,23 @@ table,tr,td {
 	background:-o-linear-gradient(bottom, #f4b647, #9c6508);
 	background:-moz-linear-gradient(bottom, #f4b647, #9c6508);
 	background:linear-gradient(to bottom, #f4b647, #9c6508);
+}
+
+/*
+ * swiper组件分页器
+ */
+
+/*分页按钮*/
+.swiper-pagination .swiper-pagination-bullet{
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    background: none;
+    opacity: 0.8;
+    border: 1px solid #b39054;
+    cursor: pointer;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background: #b39054;
 }

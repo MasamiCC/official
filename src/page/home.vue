@@ -3,12 +3,21 @@
     <!-- 头部 -->
     <Header></Header>
     <!-- 一屏轮播 -->
-    <div class="index_nav" @mouseenter="enter()" @mouseleave="leave()">
+    <div class="index_nav">
       <swiper :options="swiperOption">
-        <swiper-slide><img src="../../static/img/swiperbanner1.png"></swiper-slide>
-        <swiper-slide><img src="../../static/img/swiperbanner2.png"></swiper-slide>
-        <!-- 页码 -->
-        <div class="swiper-pagination" slot="pagination"></div>
+        <swiper-slide>
+          <img class="swiper_bg" src="../../static/img/swiperbanner1.png">
+          <div class="carousel_logo logo_1">
+            <img src="../../static/img/carousel_logo_1.png"/>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <img class="swiper_bg" src="../../static/img/swiperbanner2.png">
+          <div class="carousel_logo logo_2">
+            <img src="../../static/img/carousel_logo_2.png"/>
+          </div>
+        </swiper-slide>
+        <div class="swiper-pagination"  slot="pagination"></div>
       </swiper>
     </div>
     <!--轻奢黑卡缘起-->
@@ -40,7 +49,7 @@
               </div>
               <div class="dinner_icon_font">
                 美 食
-              </div>  
+              </div>
             </div>
           </div>
         </div>
@@ -55,7 +64,7 @@
               </div>
               <div class="dinner_icon_font">
                 旅 游
-              </div>  
+              </div>
             </div>
           </div>
         </div>
@@ -70,7 +79,7 @@
               </div>
               <div class="dinner_icon_font">
                 住 宿
-              </div>  
+              </div>
             </div>
           </div>
         </div>
@@ -85,7 +94,7 @@
               </div>
               <div class="dinner_icon_font">
                 定 制
-              </div>  
+              </div>
             </div>
           </div>
         </div>
@@ -115,36 +124,70 @@
         加入即可享受21项黑卡特权
       </div>
       <div class="">
-        <div class="bc_right_con">
-          <div class="bc_right_item1">
-            <div class="bc_right_item1_con">
-              <img src="../../static/img/BCright1.png"/>
+          <div class="bc_right_con">
+            <div class="bc_right_item1 bc_right_item">
+              <div class="bc_right_item1_con bc_right_item_con">
+                <div class="">
+                  <img src="../../static/img/BCright1.png"/>
+                </div>
+                <div class="bc_font">
+                    <p class="bc_title">轻奢沙龙</p>
+                    <p class="bc_content">
+                      轻奢点评所到一个城市将会同步开设592VIP实体社交沙龙，供轻奢会员专享
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="bc_right_item2 bc_right_item">
+              <div class="bc_right_item2_con bc_right_item_con">
+                <div class="">
+                  <img src="../../static/img/BCright2.png"/>
+                </div>
+                <div class="bc_font">
+                  <p class="bc_title">轻奢福利</p>
+                  <p class="bc_content">
+                    各式美味试吃？五星级酒店试睡？特色景区试玩？首发、首映限量参加？不止是免费，快人一步，只在轻奢专享福利。
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="bc_right_item2">
-            <div class="bc_right_item2_con">
-              <img src="../../static/img/BCright2.png"/>
+          <div class="bc_right_con">
+            <div class="bc_right_item3 bc_right_item">
+              <div class="bc_right_item3_con bc_right_item_con">
+                <div class="">
+                  <img src="../../static/img/BCright3.png"/>
+                </div>
+                <div class="bc_font">
+                    <p class="bc_title">黑卡俱乐部私董会</p>
+                    <p class="bc_content">
+                      从线上走向线下，面对面更为精准的圈层社交，只为凝聚对的人
+                    </p>
+                </div>
+              </div>
             </div>
+            <div class="bc_right_item4 bc_right_item">
+              <div class="bc_right_item4_con bc_right_item_con">
+                <div class="">
+                  <img src="../../static/img/BCright4.png"/>
+                </div>
+                <div class="bc_font">
+                  <p class="bc_title">尊贵身份</p>
+                  <p class="bc_content">
+                    不求闪耀全场，只让你展现真正的自己。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="moreBCbrights">
+            <a>
+              <div class="BC_joinUs_font">
+                更多特权
+              </div>
+            </a>
           </div>
         </div>
-        <div class="bc_right_con bc_right_con2">
-          <div class="bc_right_item3">
-            <div class="bc_right_item3_con">
-              <img src="../../static/img/BCright3.png"/>
-            </div>
-          </div>
-          <div class="bc_right_item4">
-            <div class="bc_right_item4_con">
-              <img src="../../static/img/BCright4.png"/>
-            </div>
-          </div>
-        </div>
-        <div class="moreBCbrights">
-          <a href="javascript::void(0)">
-            <span class="moreBCbrightsbtn">更多特权</span>
-          </a>
-        </div>
-      </div>
     </div>
     <!--黑卡特权-->
     <!--游艇-->
@@ -217,7 +260,6 @@
   </div>
 </template>
 
-
 <!-- css -->
 <style scoped>
   @import '../css/home.css'
@@ -232,16 +274,22 @@
   export default {
     data(){
       return{
-        swiperOption: { //使用swiper
-          autoplay: {
-            delay: 3000,
-            stopOnLastSlide: false,
-            disableOnInteraction: true,
-          },
-          speed: 1000,
+        swiperOption: {
+          // 所有的参数同 swiper 官方 api 参数一样
           pagination: {
             el: '.swiper-pagination'
-          },
+          }, //分页器
+          sliderPerView: 1, //设置同时显示的数量
+          autoplay: {
+            delay: 2000,
+            disableOnInteraction: false //操作后不停止切换
+          }, //自动切换
+          spaceBetween: 50, //分页按钮之间的距离
+          loop: true //循环切换
+        },
+        imgList:{
+          home_1: '../../static/img/swiperbanner1.png',
+          home_2: '../../static/img/swiperbanner2.png'
         }
       }
     },
@@ -251,16 +299,10 @@
       'JoinBlack': JoinBlack, //加入黑卡模块
       'Footer': Footer, //底部模块
       swiper,
-      swiperSlide, //图片轮播组件
+      swiperSlide //轮播模块
     },
     //方法
     methods:{
-      //鼠标移入
-      enter(){
-      },
-      //鼠标移出
-      leave(){
-      }
     }
   }
 </script>

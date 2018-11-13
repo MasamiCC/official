@@ -8,6 +8,7 @@ import Agent from '../page/blackCard/Agent.vue'
 import Contractor from '../page/blackCard/contractor.vue'
 import Join from '../page/blackCard/join.vue'
 import Question from '../page/blackCard/question.vue'
+import Notice from '../page/blackCard/notice.vue'
 
 Vue.use(Router)
 
@@ -77,6 +78,13 @@ export default new Router({
 			meta: {
 			  title: '常见问题'
 			}
-		} //常见问题
+		}, //常见问题
+		{
+			path: '/blackCard/notice',
+			component: Notice,
+			meta: {
+			  title: '公告协议'
+			}
+		} //公告协议
   ]
 })

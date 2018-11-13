@@ -39,6 +39,9 @@
 						<router-link to="/blackCard/question" class="channel_child">
 							常见问题
 						</router-link>
+						<router-link to="/blackCard/notice" class="channel_child">
+							协议公告
+						</router-link>
 					</div>
 				</div>
 				<div class="channel">
