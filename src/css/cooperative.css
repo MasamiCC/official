@@ -1,0 +1,93 @@
+/*
+ * 合作伙伴
+ */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/*首页一屏样式*/
+
+.index_nav {
+  height: 100%;
+  width: 100%;
+  min-width: 1280px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+
+/*合作商家*/
+.cooperate_nav{
+  padding: 80px 0 80px;
+  text-align: center;
+  min-width: 1280px;
+  overflow: hidden;
+}
+
+.cooperate_nav > .title{
+  font-size: 46px;
+    color: #333333;
+    font-weight: normal;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.intro_icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(../../static/img/index_img.png);
+  background-repeat: no-repeat;
+}
+
+.cooperate_nav .intro_icon {
+  background-position: -1221px 2px;
+}
+
+.cooperate_area{
+  width: 1200px;
+  margin: 50px auto 0;
+}
+
+/*合作商家表格*/
+.cooperate_ul{
+  width: 1080px;
+  height: 608px;
+  margin: 120px auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.cooperate_ul li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: transform 1500ms ease-out;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cooperate_ul li > div.cover{
+  background-size: cover;
+  background-position: 0px 0px;
+  transform: scale(1);
+}
+
+.cooperate_ul li > div.auto{
+  background-size: auto;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: transform 1500ms ease-out;
+}

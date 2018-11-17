@@ -15,11 +15,23 @@ import VueLazyLoad from 'vue-lazyload';
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 
+//引入axios插件
+import axios from 'axios'
+
 
 export const initPlugins = function() {
 	//使用插件
-  Vue.use(VueLazyLoad);
-  Vue.use(VueAwesomeSwiper)
+  Vue.use(VueLazyLoad,{
+    filter:{
+     // 通过这个方法可以对我们的图片资源路径进行修改
+     // 打包时这个方法需要注释
+      // webp(listener,options){
+      //   listener.src = '../../' + listener.src;
+      // }
+    }
+  });
+  Vue.use(VueAwesomeSwiper);
+  Vue.prototype.$http = axios;
   //使用wow.js
   new WOW({
   	boxClass: 'wow',

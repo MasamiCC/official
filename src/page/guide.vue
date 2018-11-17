@@ -78,11 +78,11 @@
     data () {
       return {
         imgList:{
-          introduce_1: '../../static/img/contentImg1.png',
-          introduce_2: '../../static/img/contentImg2.png',
-          introduce_3: '../../static/img/contentImg3.png',
-          introduce_4: '../../static/img/contentImg4.png',
-          footerImg: '../../static/img/contentImg5.png',
+          introduce_1: '../static/img/contentImg1.png',
+          introduce_2: '../static/img/contentImg2.png',
+          introduce_3: '../static/img/contentImg3.png',
+          introduce_4: '../static/img/contentImg4.png',
+          footerImg: '../static/img/contentImg5.png',
         },
         isOnBottom: true,
       }

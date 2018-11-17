@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/*首页一屏样式*/
+.index_nav{
+  height: 100%;
+  width: 100%;
+  min-width: 1280px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+
+.banner1>img,.banner4>img,.banner6>img{
+    width: 100%
+}
+.banner4{
+    margin: 100px 0;
+}
+.box_2,.box_3,.box_5{
+    padding: 100px;
+}
+.box_3{
+    background-color: #fbfbfb;
+}
+.box_title{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom:100px;
+}
+.box2_txt>p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-indent: 2rem;
+    color: #666666;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.box3_banner,.box5_banner{
+    text-align: center;
+    margin-top: 100px;
+}
+.box3_top>img,.box3_bot>img,.box5_top>img,.box5_bot>img{
+    width: 500px;
+    height: 380px;
+}
+.box_r,.box_l{
+    width: 500px;
+    height: 380px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.box_title{
+    font-size: 34px;
+    display: block;
+    margin-bottom: 40px;
+}
+.box_txt{
+    display: block;
+    font-size: 18px;
+    color: #666666;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.text_right{text-align: right;}
+.text_left{text-align: left;}
+.r_box{float: right;}
+.l_box{float: left;}
+.box5_txt{
+    width: 500px;
+    height: 380px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 50px;
+    background-color: #202020;
+    text-align: left;
+    font-size: 18px;
+
+}
+.l_txt{
+    font-size: 28px;
+    color: #A07942;
+}
+.box_hr{
+    width: 100px;
+    color: #A07942;
+    margin: 50px 0;
+}
+.l_p{
+    color: white;
+    width: 300px;
+}

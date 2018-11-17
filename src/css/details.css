@@ -1,0 +1,115 @@
+/*加入黑卡*/
+.joinBc{
+  text-align: center;
+  padding-top: 180px;
+  /*background: url(../static/img/privilege_5.png) no-repeat center top ;*/
+}
+.joinBc_title{
+  font-size: 46px;
+  color: #333;
+  line-height: 2;
+  margin-bottom: 75px;
+}
+.joinBc_BCBG_img{
+  display: inline-block;
+  position: relative;
+}
+.joinBc_BCBG_img img{
+  margin-right: 75px;
+}
+.joinBc_BCBG{
+  line-height: 0;
+}
+.joinBc_font{
+  font-size: 20px;
+    color: #666;
+    position: absolute;
+    top: 458px;
+    right: 286px;
+    line-height: 1.8;
+}
+.joinBc_BCBG_btn{
+  margin-bottom: 155px;
+}
+.BC_joinUs_font{
+  display: inline-block;
+  font-size: 26px;
+  color: #fff;
+  background: url(../../static/img/buttonBg.png) no-repeat;
+  width: 250px;
+  height: 65px;
+  line-height: 65px;
+  background-size: 100%;
+}
+.BC_joinUs{
+  margin-bottom: 160px;
+}
+/*加入黑卡*/
+/*新闻详情*/
+.BCnewsdetail{
+  background: #F4F4F4;
+  padding: 270px 0 130px 0;
+}
+.BCnewsdetail_title{
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.BCnewsdetail_con{
+  padding: 85px 0;
+  background: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.BCnewsdetail_small_title{
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.BCnewsdetail_content{
+  margin-top: 55px;
+  font-size: 18px;
+  line-height: 2;
+}
+.bigtime{
+  margin-right: 10px;
+}
+.smalltime{
+  margin-right: 20px;
+}
+.BCnewsdetail_concon{
+  max-width: 760px;
+  margin: 0 auto;
+}
+.BCnewsdetail_content div,.BCnewsdetail_content p,.BCnewsdetail_content span{
+  background: none!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
+  line-height: 2!important;
+  font-size: 18px!important;
+  font-family: "microsoft yahei"!important;
+}
+.BCnewsdetail_concon img{
+  max-width: 100%!important;
+  text-align: center!important;
+  text-indent: 0!important;
+}
+/*新闻详情*/
+/*返回按钮*/
+.BCnewsdetail_btn{
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  width: 233px;
+  height: 62px;
+  line-height: 62px;
+  background: #354a79;
+  border-radius: 6px;
+}
+.BCnewsdetail_bottom{
+  text-align: center;
+  margin-top: 110px;
+
+}

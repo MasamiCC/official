@@ -21,6 +21,12 @@ router.beforeEach((to, from, next) => {
   if (to.meta.title) {
     document.title = to.meta.title
   }
+  //判断是引导页
+  if(to.path === "/guide") {
+    store.dispatch('isGuide', true);
+  }else{
+    store.dispatch('isGuide', false);
+  }
   store.dispatch('changeLoad', true);
   //进行下一步
   next();

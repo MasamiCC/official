@@ -1,0 +1,134 @@
+/*
+ * 团队成员样式
+ */
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+/*首页一屏样式*/
+.index_nav{
+  height: 100%;
+  width: 100%;
+  min-width: 1280px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.index_nav .privilege_logo{
+  width: 600px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -225px;
+  margin-left: -300px;
+}
+
+/*人员介绍*/
+.member_area{
+  text-align: center;
+  padding: 75px;
+}
+
+.member_area .intro_icon{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(../../static/img/index_img.png);
+  background-repeat: no-repeat;
+  background-position: 3px 4px;
+}
+
+.member_area .title{
+  font-size: 46px;
+  color: #333333;
+  font-weight: normal;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.member_area .content{
+  font-size: 18px;
+  color: #666666;
+  line-height: 2;
+}
+
+/*人员信息*/
+.leader_nav{
+  margin-top: 70px;
+}
+.leader_area{
+  width: 250px;
+  display: inline-block;
+  margin: 0 60px;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-transition: .5s 0s all;
+  -o-transition: .5s 0s all;
+  -moz-transition: .5s 0s all;
+  -ms-transition: .5s 0s all;
+  transition: .5s 0s all;
+}
+
+.leader_area > img{
+  width: 100%;
+  height: auto;
+}
+
+.leader_area:hover{
+  box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.2);
+}
+
+.leader_intro{
+  margin-top: 25px;
+  text-align: left;
+  padding: 0 15px;
+}
+
+.leader_intro .name{
+  font-size: 30px;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.leader_intro .info > p{
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+
+/*团队风采*/
+.member_area .team_img{
+  width: 80%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.member_area .team_intro{
+  margin-top: 40px;
+}
+
+.member_area .team_intro > div{
+  margin-bottom: 40px;
+}
+
+.member_area .team_intro .title{
+  font-size: 24px;
+  color: #333333;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+.member_area .team_intro .content{
+  font-size: 24px;
+  color: #666666;
+}

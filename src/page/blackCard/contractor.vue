@@ -3,7 +3,7 @@
   <!-- 头部 -->
   <Header></Header>
   <!--首页一屏主体-->
-  <div class="index_nav zip_img" replace-img="../static/img/contractor_bg.png"> 
+  <div class="index_nav" v-lazy:background-image="imgList.contractor_0">
   </div>
 
   <!-- 签约商户介绍 -->
@@ -20,7 +20,7 @@
           </h4>
           <p class="content">随着黑卡会员区块链分红体系的全面构成</p>
           <p class="content">需要将用户与商户都纳入到区块链体系中</p>
-          <p class="content">两者相辅相成</p> 
+          <p class="content">两者相辅相成</p>
           <p class="content">黑卡签约商户应运而生</p>
         </div>
       </div>
@@ -148,16 +148,17 @@
     data () {
       return {
         imgList:{
-          contractor_1: "../../../static/img/contractor_intro_1.png",
-          contractor_2: "../../../static/img/contractor_intro_2.png",
-          contractor_3: "../../../static/img/contractor_intro_3.png",
-          contractor_4: "../../../static/img/contractor_intro_bg.png",
-          contractor_5: "../../../static/img/admittance_img.png",
-          contractor_6: "../../../static/img/admittance_img_2.png",
-          contractor_7: "../../../static/img/admittance_img_3.png",
-          contractor_8: "../../../static/img/diagonal_left.png",
-          contractor_9: "../../../static/img/diagonal_right.png",
-          contractor_10: "../../../static/img/become_img.png",
+          contractor_0: "../static/img/contractor_bg.png",
+          contractor_1: "../static/img/contractor_intro_1.png",
+          contractor_2: "../static/img/contractor_intro_2.png",
+          contractor_3: "../static/img/contractor_intro_3.png",
+          contractor_4: "../static/img/contractor_intro_bg.png",
+          contractor_5: "../static/img/admittance_img.png",
+          contractor_6: "../static/img/admittance_img_2.png",
+          contractor_7: "../static/img/admittance_img_3.png",
+          contractor_8: "../static/img/diagonal_left.png",
+          contractor_9: "../static/img/diagonal_right.png",
+          contractor_10: "../static/img/become_img.png",
         }
       }
     },

@@ -1,6 +1,7 @@
 .list_box{
     margin-top: 100px;
     padding: 110px 0px;
+    background-color: #f4f4f4;
 }
 .list_box>ul{
     width: 65%;
@@ -22,4 +23,9 @@ ul>li>a>img{
 .title{
     font-size: 19px;
     color: #333;
+}
+.BCBlackCardtime{
+  float: right;
+    color: #999;
+    font-size: 16px;
 }

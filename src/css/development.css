@@ -1,0 +1,16 @@
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/*首页一屏样式*/
+.index_nav {
+  height:100%;
+  width: 100%;
+  min-width: 1280px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}

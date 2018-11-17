@@ -45,23 +45,37 @@
 					</div>
 				</div>
 				<div class="channel">
-					<router-link to="" class="word">
+					<router-link to="/aboutUs" class="word">
 					  <span>关于我们</span>
 				  </router-link>
 					<!--移入弹出层-->
 					<div class="channel_hover">
-						<a class="channel_child">公司简介</a>
-						<a class="channel_child">产品平台</a>
-						<a class="channel_child">团队成员</a>
-						<a class="channel_child">媒体报告</a>
-						<a class="channel_child">发展轨迹</a>
-						<a class="channel_child">慈善基金</a>
-						<a class="channel_child">合作伙伴</a>
+						<router-link to="/aboutUs/company" class="channel_child">
+              公司简介
+            </router-link>
+            <router-link to="/aboutUs/platform" class="channel_child">
+              产品平台
+            </router-link>
+            <router-link to="/aboutUs/team" class="channel_child">
+              团队成员
+            </router-link>
+            <router-link to="/aboutUs/news" class="channel_child">
+              新闻动态
+            </router-link>
+            <router-link to="/aboutUs/development" class="channel_child">
+              发展轨迹
+            </router-link>
+            <router-link to="/aboutUs/charitable" class="channel_child">
+              轻奢慈善
+            </router-link>
+            <router-link to="/aboutUs/coperative" class="channel_child">
+              合作伙伴
+            </router-link>
 					</div>
 				</div>
-				
+
 				<a href="jacascript::void(0)" class="join_us">
-					加入我们
+					加入黑卡
 				</a>
 			</div>
 		</div>

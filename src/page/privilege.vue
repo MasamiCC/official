@@ -3,7 +3,7 @@
     <!-- 头部 -->
     <Header></Header>
     <!--首页一屏主体-->
-    <div class="index_nav"> 
+    <div class="index_nav">
       <div class="logo_area">
         <img src="../../static/img/privilege_logo.png" class="privilege_logo">
       </div>

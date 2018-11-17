@@ -3,13 +3,12 @@
   height: 100%;
 }
 /*
- * 首页一屏样式 
+ * 首页一屏样式
  */
 
 .index_nav{
   height: 100%;
   width: 100%;
-  background-image: url(../../static/img/agent_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -72,7 +71,7 @@
 
 .agent_earnings_area{
   width: 1200px;
-  margin: 80px auto 0; 
+  margin: 80px auto 0;
   background-color: #ffffff;
   overflow: hidden;
 }
@@ -421,3 +420,48 @@
   left: 0;
   background-position: -850px 0;
 }
+
+/*
+ * 特约经纪人
+ */
+
+.agent_intro_nav.special_nav{
+  background-color: #f4f4f4;
+}
+
+.agent_intro_nav.special_nav .agent_intro_content.right{
+  padding-top: 0px;
+}
+
+.agent_intro_nav.special_nav .agent_intro_content.right > p{
+  line-height: 1.6;
+  text-indent: 2em;
+}
+
+.agent_intro_nav.special_nav .agent_intro_content.right > p:first-child{
+  margin-bottom: 20px;
+}
+
+/*进入按钮*/
+.enter_special{
+  height: 55px;
+    line-height: 52px;
+    padding: 0 35px;
+    margin-top: 100px;
+    display: inline-block;
+    border: 2px solid #b39054;
+    color: #b39054;
+    font-size: 28px;
+    border-radius: 5px;
+    -webkit-transition: .5s 0s all;
+    -o-transition: .5s 0s all;
+    -moz-transition: .5s 0s all;
+    -ms-transition: .5s 0s all;
+    transition: .5s 0s all;
+}
+
+.enter_special:hover{
+  background-color: #b39054;
+    color: #ffffff;
+}
+

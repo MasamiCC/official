@@ -4,7 +4,7 @@
   <Header></Header>
 
   <!--首页一屏主体-->
-  <div class="index_nav"> 
+  <div class="index_nav bg_lazy" v-lazy:background-image="imgList.agent_0">
   </div>
 
   <!-- 什么是黑卡经纪人 -->
@@ -93,10 +93,6 @@
         </div>
       </div>
     </div>
-    
-    <a href="../../../static/file/轻奢点评宣传册.doc" download="轻奢点评宣传册.doc" class="brochure_download">
-      更多黑卡经纪人细则可在《轻奢点评宣传手册》上进行查看
-    </a>
   </div>
 
   <!-- 背景 -->
@@ -148,6 +144,30 @@
       <div class="guide_img guide_3"></div>
     </div>
   </div>
+
+  <!-- 特约经纪人区域 -->
+  <div class="agent_intro_nav special_nav">
+    <span class="block_icon"></span>
+    <h4 class="block_title">轻奢点评特约经纪人</h4>
+    <div class="agent_intro_area">
+      <div class="agent_intro_content left wow bounceInLeft">
+        <img v-lazy = "imgList.agent_10" >
+      </div>
+      <div class="agent_intro_content right wow bounceInRight">
+        <p class="content">
+          轻奢点评特约经纪人负责在授权区域协助平台进行线下签约合格商家入驻平台，
+          进行在线经营和进行线下维护的工作，并同步拓展黑卡会员业务。
+          其职责为：负责在签约授权城市按照协议确定的任务指标完成合格商家及黑卡会员的渠道拓展建设（包括合格商家入驻平台的洽谈、签约、协助消费引流、线下维护；黑卡会员邀请、注册、线下培训等活动的职责）
+        </p>
+        <p class="content">
+          平台为方便特约经纪人在其所负责城市区域内进行业务管理，轻奢点评平台开放特约经纪人后台管理系统，特约经纪人可使用平台维护的专属账号进行登录，可以查看所负责区域内的相关数据。
+        </p>
+      </div>
+    </div>
+    <a class="enter_special" href="https://www.592vip.com:453"  target="_Blank">
+      进入后台管理系统
+    </a>
+  </div>
   <!-- 加入黑卡 -->
   <JoinBlack></JoinBlack>
   <!-- 底部 -->
@@ -170,15 +190,17 @@
     data () {
       return {
         imgList:{
-          agent_1: "../../../static/img/agent_intro.png",
-          agent_2: "../../../static/img/agent_earnings_img_1.png",
-          agent_3: "../../../static/img/agent_earnings_img_2.png",
-          agent_4: "../../../static/img/contractor_intro_bg.png",
-          agent_5: "../../../static/img/agent_admittance_img.png",
-          agent_6: "../../../static/img/agent_admittance_img_2.png",
-          agent_7: "../../../static/img/agent_admittance_img_3.png",
-          agent_8: "../../../static/img/diagonal_left.png",
-          agent_9: "../../../static/img/diagonal_right.png",
+          agent_0: "../static/img/agent_bg.png",
+          agent_1: "../static/img/agent_intro.png",
+          agent_2: "../static/img/agent_earnings_img_1.png",
+          agent_3: "../static/img/agent_earnings_img_2.png",
+          agent_4: "../static/img/contractor_intro_bg.png",
+          agent_5: "../static/img/agent_admittance_img.png",
+          agent_6: "../static/img/agent_admittance_img_2.png",
+          agent_7: "../static/img/agent_admittance_img_3.png",
+          agent_8: "../static/img/diagonal_left.png",
+          agent_9: "../static/img/diagonal_right.png",
+          agent_10: "../static/img/special_intro.png",
         }
       }
     },

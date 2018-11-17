@@ -24,8 +24,8 @@
   	data(){
   		return{
   			imgList:{
-	  			bgImg_1: '../../static/img/join_us_bg.png',
-	  			bgImg_2: '../../static/img/join_us_logo.png'
+	  			bgImg_1: '../static/img/join_us_bg.png',
+	  			bgImg_2: '../static/img/join_us_logo.png'
 	  		}
   		}
   	}

@@ -86,15 +86,15 @@
     data () {
       return {
         imgList:{
-          member_1: "../../../static/img/black_1.png",
-          member_2: "../../../static/img/blackcard_02.png",
-          member_3: "../../../static/img/blackcard_03.png",
-          member_4: "../../../static/img/blackcard_04.png",
-          member_5: "../../../static/img/blackcard_05.png",
-          member_6: "../../../static/img/blackcard_06.png",
-          member_7: "../../../static/img/blackcard_07.png",
-          member_8: "../../../static/img/black_6.png",
-          member_9: "../../../static/img/join_03.png",
+          member_1: "../static/img/black_1.png",
+          member_2: "../static/img/blackcard_02.png",
+          member_3: "../static/img/blackcard_03.png",
+          member_4: "../static/img/blackcard_04.png",
+          member_5: "../static/img/blackcard_05.png",
+          member_6: "../static/img/blackcard_06.png",
+          member_7: "../static/img/blackcard_07.png",
+          member_8: "../static/img/black_6.png",
+          member_9: "../static/img/join_03.png",
         }
       }
     },

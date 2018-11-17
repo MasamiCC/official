@@ -51,7 +51,7 @@
   	data(){
   		return{
   			imgList:{
-	  			footerImg: '../../static/img/footer_bg.png'
+	  			footerImg: '../static/img/footer_bg.png'
 	  		}
   		}
   	}

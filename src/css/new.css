@@ -1,0 +1,111 @@
+/*
+ * 特权中心样式
+ */
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+/*首页一屏样式*/
+.index_nav{
+  height: 100%;
+  width: 100%;
+  min-width: 1280px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.index_nav .privilege_logo{
+  width: 650px;
+  height: 280px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -140px;
+  margin-left: -670px;
+}
+
+/*资讯中心*/
+.newsList_nav{
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.newsList_area{
+  width: 1200px;
+  height: 1450px;
+  background-color: #ffffff;
+  padding: 50px 80px;
+  margin: 0 auto;
+}
+
+.newsList_header{
+  font-size: 28px;
+  font-weight: normal;
+  border-bottom: 2px solid #999999;
+  padding-bottom: 20px;
+}
+
+.newsList_ul > li{
+  margin-top: 50px;
+  padding: 0 50px 60px;
+  border-bottom: 2px dotted #999999;
+  position: relative;
+}
+
+.newsList_ul > li > a{
+  display: block;
+  position: relative;
+}
+
+.newsList_ul > li >a:before{
+  content:"";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #354a79;
+  position: absolute;
+  top: 10px;
+  left: -50px;
+}
+
+.newsList_ul > li > a:hover .news_title{
+  color: #b39054;
+}
+
+.newsList_ul > li > a:hover::before{
+  background-color: #b39054;
+}
+
+.newsList_ul .news_title{
+  font-size: 22px;
+  font-weight: normal;
+  color: #333333;
+  height: 35px;
+  line-height: 35px;
+}
+
+
+.newsList_ul .news_source{
+  font-size: 16px;
+  color: #999999;
+  margin: 10px 0;
+}
+
+.newsList_ul .news_source .time{
+  margin-right: 25px;
+}
+
+.newsList_ul .news_content{
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.8;
+  height: 56px;
+  overflow: hidden;
+}
+

@@ -19,20 +19,20 @@ body, button, input, select, textarea{
   color: #333333;
 }
 
-ul, ol, li { 
-	list-style: none; 
+ul, ol, li {
+	list-style: none;
 }
 
-fieldset, img { 
-	border: 0; 
+fieldset, img {
+	border: 0;
 }
 
 a:hover,a:link,a:visited,a:active{
   text-decoration: none;
 }
 
-table,tr,td { 
-	/*border-collapse: collapse; 
+table,tr,td {
+	/*border-collapse: collapse;
 	border-spacing: 0; */
 }
 
@@ -246,7 +246,7 @@ table,tr,td {
 	display: inline-block;
 	padding: 0 40px;
 	position: relative;
-	
+
 }
 .footer_ul > li:last-child:after{
 	border: 0;
@@ -359,7 +359,7 @@ table,tr,td {
  	background-repeat: no-repeat;
  	background-position: center center;
  	position: relative;
- 	overflow: hidden;	
+ 	overflow: hidden;
  	text-align: center;
  	padding-top: 150px;
 }
@@ -443,3 +443,91 @@ table,tr,td {
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
 	background: #b39054;
 }
+
+/*页面固定按钮*/
+.bcBtns{
+  position: fixed;
+  bottom: 33px;
+  right: 15px;
+  z-index: 99;
+  text-align: center;
+}
+.bcBtns_item{
+  background: rgba(184,148,87,0.8);
+  color: #fff;
+  margin-bottom: 5px;
+  padding: 9px 13px;
+  cursor: pointer;
+}
+.bcBtns_item:hover{
+  background: #b89457!important;
+}
+.bcBtns a{
+  text-decoration: none;
+  color: #fff;
+}
+.bgMinWidth{
+  min-width: 1200px;
+}
+
+.bcBtns_item .iframe_nav{
+  position: absolute;
+  left: -363px;
+  top: 0;
+  visibility: hidden;
+  -webkit-transition: .5s 0s top;
+  -o-transition: .5s 0s top;
+  -moz-transition: .5s 0s top;
+  -ms-transition: .5s 0s top;
+  transition: .5s 0s top;
+}
+
+/*.bcBtns_item:hover .iframe_nav{
+  top: -213px;
+  visibility: visible;
+}*/
+.iframe_nav.show{
+  top: -213px;
+  visibility: visible;
+}
+
+.bcBtns_item .iframe_nav iframe{
+  border: 0;
+}
+
+.bcBtns_item .iframe_nav .close{
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background-image: url(../img/bgGroup.png);
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: -2474px 0;
+  top: 17px;
+  right: 11px;
+  z-index: 99;
+}
+
+
+/*页面固定按钮*/
+/*协议公告 特此公告*/
+.tc {
+  text-align: right;
+  margin-right: 0px!important;
+  margin-top: 50px;
+}
+
+.company {
+  text-align: right;
+}
+
+.time {
+  text-align: right;
+  margin-right: 0px!important;
+}
+.BCp_con{
+  font-size: 17px;
+  line-height: 40px;
+}
+/*协议公告 特此公告*/

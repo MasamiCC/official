@@ -42,9 +42,9 @@
     data () {
       return {
         imgList:{
-          join_1: "../../../static/img/join_app.png",
-          join_2: "../../../static/img/join_06.png",
-          join_3: "../../../static/img/join_03.png",
+          join_1: "../static/img/join_app.png",
+          join_2: "../static/img/join_06.png",
+          join_3: "../static/img/join_03.png",
         }
       }
     },

@@ -288,8 +288,8 @@
           loop: true //循环切换
         },
         imgList:{
-          home_1: '../../static/img/swiperbanner1.png',
-          home_2: '../../static/img/swiperbanner2.png'
+          home_1: '../static/img/swiperbanner1.png',
+          home_2: '../static/img/swiperbanner2.png'
         }
       }
     },
